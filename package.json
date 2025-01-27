@@ -1,0 +1,23 @@
+{
+  "name": "alexia-piggy-bank",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.x",
+    "react": "18.x",
+    "react-dom": "18.x"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.x",
+    "eslint": "8.x",
+    "eslint-config-next": "13.x",
+    "postcss": "^8.x",
+    "tailwindcss": "^3.x"
+  }
+}
