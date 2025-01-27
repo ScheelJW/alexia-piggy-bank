@@ -18,8 +18,6 @@
     "react-dom": "^18.2.0",
     "@tailwindcss/postcss7-compat": "^2.2.17",
     "postcss": "^7.0.39",
-    "openai": "^4.0.0",
-    "pg": "^8.x.x",
     "autoprefixer": "^9.8.8",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
