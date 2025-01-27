@@ -1,27 +1,30 @@
 {
-  "name": "alexia-piggy-bank",
+  "name": "airforce-toolkit",
   "version": "1.0.0",
-  "description": "A modern investment tracker built with Next.js and Tailwind CSS",
+  "description": "A toolkit for Airmen and Guardians",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "^13.5.8",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^5.16.14",
+    "@mui/material": "^5.16.14",
+    "next": "^13.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.3.3",
-    "postcss": "^8.4.21",
-    "autoprefixer": "^10.4.13"
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "postcss": "^7.0.39",
+    "openai": "^4.0.0",
+    "pg": "^8.x.x",
+    "autoprefixer": "^9.8.8",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
   "devDependencies": {
-    "eslint": "8.x",
-    "eslint-config-next": "13.x"
-  },
-  "eslintConfig": {
-    "extends": ["next/core-web-vitals"]
+    "postcss-import": "^12.0.1",
+    "postcss-nesting": "^7.0.1"
   }
 }
